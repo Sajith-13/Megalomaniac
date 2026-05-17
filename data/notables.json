@@ -1,0 +1,5 @@
+[
+  {"id": 0, "name": "Pure Might", "tags": ["aura", "mana"]},
+  {"id": 1, "name": "Master of Fire", "tags": ["fire", "elemental"]},
+  {"id": 2, "name": "Crematory", "tags": ["fire", "damage"]}
+]
