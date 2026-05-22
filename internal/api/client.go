@@ -13,7 +13,6 @@ type TradeClient struct {
 func NewTradeClient(contactEmail string) *TradeClient {
 	return &TradeClient{
 		httpClient: &http.Client{Timeout: 10 * time.Second},
-		// GGG requires a clear User-Agent naming your app and contact info
 		userAgent:  "MegaloMarketAnalyzer/1.0 (Contact: " + contactEmail + ")",
 	}
 }
