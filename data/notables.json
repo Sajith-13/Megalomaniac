@@ -1,5 +1,1502 @@
 [
-  {"id": 0, "name": "Pure Might", "tags": ["aura", "mana"]},
-  {"id": 1, "name": "Master of Fire", "tags": ["fire", "elemental"]},
-  {"id": 2, "name": "Crematory", "tags": ["fire", "damage"]}
+  {
+    "id": 0,
+    "name": "Adrenaline",
+    "trade_id": "explicit.stat_4022743870"
+  },
+  {
+    "id": 1,
+    "name": "Advance Guard",
+    "trade_id": "explicit.stat_1625939562"
+  },
+  {
+    "id": 2,
+    "name": "Aerialist",
+    "trade_id": "explicit.stat_3848677307"
+  },
+  {
+    "id": 3,
+    "name": "Aerodynamics",
+    "trade_id": "explicit.stat_4120556534"
+  },
+  {
+    "id": 4,
+    "name": "Agent of Destruction",
+    "trade_id": "explicit.stat_3122491961"
+  },
+  {
+    "id": 5,
+    "name": "Aggressive Defence",
+    "trade_id": "explicit.stat_4154008618"
+  },
+  {
+    "id": 6,
+    "name": "Alchemist",
+    "trade_id": "explicit.stat_2912949210"
+  },
+  {
+    "id": 7,
+    "name": "Ancestral Echo",
+    "trade_id": "explicit.stat_957679205"
+  },
+  {
+    "id": 8,
+    "name": "Ancestral Guidance",
+    "trade_id": "explicit.stat_2387747995"
+  },
+  {
+    "id": 9,
+    "name": "Ancestral Inspiration",
+    "trade_id": "explicit.stat_77045106"
+  },
+  {
+    "id": 10,
+    "name": "Ancestral Might",
+    "trade_id": "explicit.stat_3998316"
+  },
+  {
+    "id": 11,
+    "name": "Ancestral Preservation",
+    "trade_id": "explicit.stat_3746703776"
+  },
+  {
+    "id": 12,
+    "name": "Ancestral Reach",
+    "trade_id": "explicit.stat_3294884567"
+  },
+  {
+    "id": 13,
+    "name": "Antifreeze",
+    "trade_id": "explicit.stat_2622946553"
+  },
+  {
+    "id": 14,
+    "name": "Antivenom",
+    "trade_id": "explicit.stat_774369953"
+  },
+  {
+    "id": 15,
+    "name": "Arcane Adept",
+    "trade_id": "explicit.stat_393565679"
+  },
+  {
+    "id": 16,
+    "name": "Arcane Heroism",
+    "trade_id": "explicit.stat_3901992019"
+  },
+  {
+    "id": 17,
+    "name": "Arcane Pyrotechnics",
+    "trade_id": "explicit.stat_2043503530"
+  },
+  {
+    "id": 18,
+    "name": "Arcing Shot",
+    "trade_id": "explicit.stat_3212859169"
+  },
+  {
+    "id": 19,
+    "name": "Assert Dominance",
+    "trade_id": "explicit.stat_4222265138"
+  },
+  {
+    "id": 20,
+    "name": "Astonishing Affliction",
+    "trade_id": "explicit.stat_2428334013"
+  },
+  {
+    "id": 21,
+    "name": "Basics of Pain",
+    "trade_id": "explicit.stat_3084359503"
+  },
+  {
+    "id": 22,
+    "name": "Battle-Hardened",
+    "trade_id": "explicit.stat_4188581520"
+  },
+  {
+    "id": 23,
+    "name": "Battlefield Dominator",
+    "trade_id": "explicit.stat_1499057234"
+  },
+  {
+    "id": 24,
+    "name": "Blacksmith",
+    "trade_id": "explicit.stat_1127706436"
+  },
+  {
+    "id": 25,
+    "name": "Blanketed Snow",
+    "trade_id": "explicit.stat_1085167979"
+  },
+  {
+    "id": 26,
+    "name": "Blast-Freeze",
+    "trade_id": "explicit.stat_693808153"
+  },
+  {
+    "id": 27,
+    "name": "Blessed",
+    "trade_id": "explicit.stat_775689239"
+  },
+  {
+    "id": 28,
+    "name": "Blessed Rebirth",
+    "trade_id": "explicit.stat_1424794574"
+  },
+  {
+    "id": 29,
+    "name": "Blizzard Caller",
+    "trade_id": "explicit.stat_3758712376"
+  },
+  {
+    "id": 30,
+    "name": "Blood Artist",
+    "trade_id": "explicit.stat_2284771334"
+  },
+  {
+    "id": 31,
+    "name": "Bloodscent",
+    "trade_id": "explicit.stat_3967765261"
+  },
+  {
+    "id": 32,
+    "name": "Blowback",
+    "trade_id": "explicit.stat_1612414696"
+  },
+  {
+    "id": 33,
+    "name": "Bodyguards",
+    "trade_id": "explicit.stat_791125124"
+  },
+  {
+    "id": 34,
+    "name": "Born of Chaos",
+    "trade_id": "explicit.stat_2449392400"
+  },
+  {
+    "id": 35,
+    "name": "Brand Loyalty",
+    "trade_id": "explicit.stat_3198006994"
+  },
+  {
+    "id": 36,
+    "name": "Brewed for Potency",
+    "trade_id": "explicit.stat_3250272113"
+  },
+  {
+    "id": 37,
+    "name": "Broadside",
+    "trade_id": "explicit.stat_2205982416"
+  },
+  {
+    "id": 38,
+    "name": "Brush with Death",
+    "trade_id": "explicit.stat_2900833792"
+  },
+  {
+    "id": 39,
+    "name": "Brutal Infamy",
+    "trade_id": "explicit.stat_2068574831"
+  },
+  {
+    "id": 40,
+    "name": "Burden Projection",
+    "trade_id": "explicit.stat_2008682345"
+  },
+  {
+    "id": 41,
+    "name": "Burning Bright",
+    "trade_id": "explicit.stat_4199056048"
+  },
+  {
+    "id": 42,
+    "name": "Calamitous",
+    "trade_id": "explicit.stat_3359207393"
+  },
+  {
+    "id": 43,
+    "name": "Call to the Slaughter",
+    "trade_id": "explicit.stat_3317068522"
+  },
+  {
+    "id": 44,
+    "name": "Capacitor",
+    "trade_id": "explicit.stat_4025536654"
+  },
+  {
+    "id": 45,
+    "name": "Careful Handling",
+    "trade_id": "explicit.stat_456502758"
+  },
+  {
+    "id": 46,
+    "name": "Chilling Presence",
+    "trade_id": "explicit.stat_2834490860"
+  },
+  {
+    "id": 47,
+    "name": "Chip Away",
+    "trade_id": "explicit.stat_968069586"
+  },
+  {
+    "id": 48,
+    "name": "Circling Oblivion",
+    "trade_id": "explicit.stat_2129392647"
+  },
+  {
+    "id": 49,
+    "name": "Clarity of Purpose",
+    "trade_id": "explicit.stat_684087686"
+  },
+  {
+    "id": 50,
+    "name": "Cold Conduction",
+    "trade_id": "explicit.stat_1274505521"
+  },
+  {
+    "id": 51,
+    "name": "Cold to the Core",
+    "trade_id": "explicit.stat_744783843"
+  },
+  {
+    "id": 52,
+    "name": "Cold-Blooded Killer",
+    "trade_id": "explicit.stat_836566759"
+  },
+  {
+    "id": 53,
+    "name": "Combat Rhythm",
+    "trade_id": "explicit.stat_3122505794"
+  },
+  {
+    "id": 54,
+    "name": "Compound Injury",
+    "trade_id": "explicit.stat_4018305528"
+  },
+  {
+    "id": 55,
+    "name": "Confident Combatant",
+    "trade_id": "explicit.stat_3930242735"
+  },
+  {
+    "id": 56,
+    "name": "Conjured Wall",
+    "trade_id": "explicit.stat_4105031548"
+  },
+  {
+    "id": 57,
+    "name": "Conservation of Energy",
+    "trade_id": "explicit.stat_2083777017"
+  },
+  {
+    "id": 58,
+    "name": "Cooked Alive",
+    "trade_id": "explicit.stat_2938895712"
+  },
+  {
+    "id": 59,
+    "name": "Corrosive Elements",
+    "trade_id": "explicit.stat_1777139212"
+  },
+  {
+    "id": 60,
+    "name": "Cremator",
+    "trade_id": "explicit.stat_1153801980"
+  },
+  {
+    "id": 61,
+    "name": "Cry Wolf",
+    "trade_id": "explicit.stat_1821748178"
+  },
+  {
+    "id": 62,
+    "name": "Cult-Leader",
+    "trade_id": "explicit.stat_2026112251"
+  },
+  {
+    "id": 63,
+    "name": "Daring Ideas",
+    "trade_id": "explicit.stat_2534405517"
+  },
+  {
+    "id": 64,
+    "name": "Dark Ideation",
+    "trade_id": "explicit.stat_1603621602"
+  },
+  {
+    "id": 65,
+    "name": "Dark Messenger",
+    "trade_id": "explicit.stat_3784610129"
+  },
+  {
+    "id": 66,
+    "name": "Darting Movements",
+    "trade_id": "explicit.stat_846491278"
+  },
+  {
+    "id": 67,
+    "name": "Deadly Repartee",
+    "trade_id": "explicit.stat_1013470938"
+  },
+  {
+    "id": 68,
+    "name": "Deep Chill",
+    "trade_id": "explicit.stat_1703766309"
+  },
+  {
+    "id": 69,
+    "name": "Deep Cuts",
+    "trade_id": "explicit.stat_410939404"
+  },
+  {
+    "id": 70,
+    "name": "Destructive Aspect",
+    "trade_id": "explicit.stat_3860179422"
+  },
+  {
+    "id": 71,
+    "name": "Devastator",
+    "trade_id": "explicit.stat_3711553948"
+  },
+  {
+    "id": 72,
+    "name": "Disciples",
+    "trade_id": "explicit.stat_3177526694"
+  },
+  {
+    "id": 73,
+    "name": "Disease Vector",
+    "trade_id": "explicit.stat_183591019"
+  },
+  {
+    "id": 74,
+    "name": "Disorienting Display",
+    "trade_id": "explicit.stat_3206911230"
+  },
+  {
+    "id": 75,
+    "name": "Disorienting Wounds",
+    "trade_id": "explicit.stat_3351136461"
+  },
+  {
+    "id": 76,
+    "name": "Distilled Perfection",
+    "trade_id": "explicit.stat_3652138990"
+  },
+  {
+    "id": 77,
+    "name": "Doedre's Apathy",
+    "trade_id": "explicit.stat_1381945089"
+  },
+  {
+    "id": 78,
+    "name": "Doedre's Gluttony",
+    "trade_id": "explicit.stat_2695848124"
+  },
+  {
+    "id": 79,
+    "name": "Doedre's Spite",
+    "trade_id": "explicit.stat_462115791"
+  },
+  {
+    "id": 80,
+    "name": "Doryani's Lesson",
+    "trade_id": "explicit.stat_228455793"
+  },
+  {
+    "id": 81,
+    "name": "Dragon Hunter",
+    "trade_id": "explicit.stat_1038955006"
+  },
+  {
+    "id": 82,
+    "name": "Dread March",
+    "trade_id": "explicit.stat_3087667389"
+  },
+  {
+    "id": 83,
+    "name": "Drive the Destruction",
+    "trade_id": "explicit.stat_1911162866"
+  },
+  {
+    "id": 84,
+    "name": "Eldritch Inspiration",
+    "trade_id": "explicit.stat_3737604164"
+  },
+  {
+    "id": 85,
+    "name": "Electric Presence",
+    "trade_id": "explicit.stat_3950683692"
+  },
+  {
+    "id": 86,
+    "name": "Elegant Form",
+    "trade_id": "explicit.stat_289714529"
+  },
+  {
+    "id": 87,
+    "name": "Empowered Envoy",
+    "trade_id": "explicit.stat_2032453153"
+  },
+  {
+    "id": 88,
+    "name": "Endbringer",
+    "trade_id": "explicit.stat_2150878631"
+  },
+  {
+    "id": 89,
+    "name": "Enduring Composure",
+    "trade_id": "explicit.stat_2043284086"
+  },
+  {
+    "id": 90,
+    "name": "Enduring Focus",
+    "trade_id": "explicit.stat_2522970386"
+  },
+  {
+    "id": 91,
+    "name": "Enduring Ward",
+    "trade_id": "explicit.stat_252724319"
+  },
+  {
+    "id": 92,
+    "name": "Energy From Naught",
+    "trade_id": "explicit.stat_2195518432"
+  },
+  {
+    "id": 93,
+    "name": "Essence Rush",
+    "trade_id": "explicit.stat_1096136223"
+  },
+  {
+    "id": 94,
+    "name": "Eternal Suffering",
+    "trade_id": "explicit.stat_2144634814"
+  },
+  {
+    "id": 95,
+    "name": "Evil Eye",
+    "trade_id": "explicit.stat_4291066912"
+  },
+  {
+    "id": 96,
+    "name": "Expansive Might",
+    "trade_id": "explicit.stat_394918362"
+  },
+  {
+    "id": 97,
+    "name": "Expendability",
+    "trade_id": "explicit.stat_2020075345"
+  },
+  {
+    "id": 98,
+    "name": "Expert Sabotage",
+    "trade_id": "explicit.stat_2084371547"
+  },
+  {
+    "id": 99,
+    "name": "Exploit Weakness",
+    "trade_id": "explicit.stat_50129423"
+  },
+  {
+    "id": 100,
+    "name": "Explosive Force",
+    "trade_id": "explicit.stat_2017927451"
+  },
+  {
+    "id": 101,
+    "name": "Exposure Therapy",
+    "trade_id": "explicit.stat_131358113"
+  },
+  {
+    "id": 102,
+    "name": "Eye of the Storm",
+    "trade_id": "explicit.stat_3818661553"
+  },
+  {
+    "id": 103,
+    "name": "Eye to Eye",
+    "trade_id": "explicit.stat_392942015"
+  },
+  {
+    "id": 104,
+    "name": "Fan of Blades",
+    "trade_id": "explicit.stat_2484082827"
+  },
+  {
+    "id": 105,
+    "name": "Fan the Flames",
+    "trade_id": "explicit.stat_2918755450"
+  },
+  {
+    "id": 106,
+    "name": "Fasting",
+    "trade_id": "explicit.stat_37078857"
+  },
+  {
+    "id": 107,
+    "name": "Fearsome Warrior",
+    "trade_id": "explicit.stat_3134222965"
+  },
+  {
+    "id": 108,
+    "name": "Feast of Flesh",
+    "trade_id": "explicit.stat_2396755365"
+  },
+  {
+    "id": 109,
+    "name": "Feasting Fiends",
+    "trade_id": "explicit.stat_383245807"
+  },
+  {
+    "id": 110,
+    "name": "Feed the Fury",
+    "trade_id": "explicit.stat_3944525413"
+  },
+  {
+    "id": 111,
+    "name": "Fettle",
+    "trade_id": "explicit.stat_1353571444"
+  },
+  {
+    "id": 112,
+    "name": "Fiery Aegis",
+    "trade_id": "explicit.stat_3233538204"
+  },
+  {
+    "id": 113,
+    "name": "Fire Attunement",
+    "trade_id": "explicit.stat_3188756614"
+  },
+  {
+    "id": 114,
+    "name": "Flexible Sentry",
+    "trade_id": "explicit.stat_982290947"
+  },
+  {
+    "id": 115,
+    "name": "Flow of Life",
+    "trade_id": "explicit.stat_2350430215"
+  },
+  {
+    "id": 116,
+    "name": "Follow-Through",
+    "trade_id": "explicit.stat_3984980429"
+  },
+  {
+    "id": 117,
+    "name": "Forbidden Words",
+    "trade_id": "explicit.stat_2454339320"
+  },
+  {
+    "id": 118,
+    "name": "Force Multiplier",
+    "trade_id": "explicit.stat_1904581068"
+  },
+  {
+    "id": 119,
+    "name": "Frantic Aspect",
+    "trade_id": "explicit.stat_792262925"
+  },
+  {
+    "id": 120,
+    "name": "Fuel the Fight",
+    "trade_id": "explicit.stat_3599340381"
+  },
+  {
+    "id": 121,
+    "name": "Furious Assault",
+    "trade_id": "explicit.stat_3415827027"
+  },
+  {
+    "id": 122,
+    "name": "Genius",
+    "trade_id": "explicit.stat_2763732093"
+  },
+  {
+    "id": 123,
+    "name": "Gladiator's Fortitude",
+    "trade_id": "explicit.stat_1591995797"
+  },
+  {
+    "id": 124,
+    "name": "Gladiatorial Combat",
+    "trade_id": "explicit.stat_1543731719"
+  },
+  {
+    "id": 125,
+    "name": "Graceful Execution",
+    "trade_id": "explicit.stat_1903496649"
+  },
+  {
+    "id": 126,
+    "name": "Grand Design",
+    "trade_id": "explicit.stat_2350900742"
+  },
+  {
+    "id": 127,
+    "name": "Grim Oath",
+    "trade_id": "explicit.stat_2194205899"
+  },
+  {
+    "id": 128,
+    "name": "Guerilla Tactics",
+    "trade_id": "explicit.stat_1882129725"
+  },
+  {
+    "id": 129,
+    "name": "Haemorrhage",
+    "trade_id": "explicit.stat_72129119"
+  },
+  {
+    "id": 130,
+    "name": "Haunting Shout",
+    "trade_id": "explicit.stat_1080363357"
+  },
+  {
+    "id": 131,
+    "name": "Heart of Iron",
+    "trade_id": "explicit.stat_1483358825"
+  },
+  {
+    "id": 132,
+    "name": "Heavy Hitter",
+    "trade_id": "explicit.stat_3640252904"
+  },
+  {
+    "id": 133,
+    "name": "Heraldry",
+    "trade_id": "explicit.stat_3274270612"
+  },
+  {
+    "id": 134,
+    "name": "Hex Breaker",
+    "trade_id": "explicit.stat_2341828832"
+  },
+  {
+    "id": 135,
+    "name": "Hibernator",
+    "trade_id": "explicit.stat_2294919888"
+  },
+  {
+    "id": 136,
+    "name": "Hit and Run",
+    "trade_id": "explicit.stat_2665170385"
+  },
+  {
+    "id": 137,
+    "name": "Holistic Health",
+    "trade_id": "explicit.stat_3667965781"
+  },
+  {
+    "id": 138,
+    "name": "Holy Conquest",
+    "trade_id": "explicit.stat_3898572660"
+  },
+  {
+    "id": 139,
+    "name": "Holy Word",
+    "trade_id": "explicit.stat_3697635701"
+  },
+  {
+    "id": 140,
+    "name": "Hound's Mark",
+    "trade_id": "explicit.stat_555800967"
+  },
+  {
+    "id": 141,
+    "name": "Hulking Corpses",
+    "trade_id": "explicit.stat_3467711950"
+  },
+  {
+    "id": 142,
+    "name": "Improvisor",
+    "trade_id": "explicit.stat_810219447"
+  },
+  {
+    "id": 143,
+    "name": "Insatiable Killer",
+    "trade_id": "explicit.stat_3904970959"
+  },
+  {
+    "id": 144,
+    "name": "Inspired Oppression",
+    "trade_id": "explicit.stat_3872380586"
+  },
+  {
+    "id": 145,
+    "name": "Insulated",
+    "trade_id": "explicit.stat_212648555"
+  },
+  {
+    "id": 146,
+    "name": "Intensity",
+    "trade_id": "explicit.stat_2785835061"
+  },
+  {
+    "id": 147,
+    "name": "Introspection",
+    "trade_id": "explicit.stat_1309218394"
+  },
+  {
+    "id": 148,
+    "name": "Invigorating Portents",
+    "trade_id": "explicit.stat_2262034536"
+  },
+  {
+    "id": 149,
+    "name": "Iron Breaker",
+    "trade_id": "explicit.stat_3258653591"
+  },
+  {
+    "id": 150,
+    "name": "Lasting Impression",
+    "trade_id": "explicit.stat_426715778"
+  },
+  {
+    "id": 151,
+    "name": "Lead By Example",
+    "trade_id": "explicit.stat_2195406641"
+  },
+  {
+    "id": 152,
+    "name": "Life from Death",
+    "trade_id": "explicit.stat_2337273077"
+  },
+  {
+    "id": 153,
+    "name": "Liquid Inspiration",
+    "trade_id": "explicit.stat_1094635162"
+  },
+  {
+    "id": 154,
+    "name": "Lord of Drought",
+    "trade_id": "explicit.stat_2055715585"
+  },
+  {
+    "id": 155,
+    "name": "Low Tolerance",
+    "trade_id": "explicit.stat_3989400244"
+  },
+  {
+    "id": 156,
+    "name": "Mage Bane",
+    "trade_id": "explicit.stat_684155617"
+  },
+  {
+    "id": 157,
+    "name": "Mage Hunter",
+    "trade_id": "explicit.stat_2118664144"
+  },
+  {
+    "id": 158,
+    "name": "Magnifier",
+    "trade_id": "explicit.stat_2886441936"
+  },
+  {
+    "id": 159,
+    "name": "Martial Mastery",
+    "trade_id": "explicit.stat_1015189426"
+  },
+  {
+    "id": 160,
+    "name": "Martial Momentum",
+    "trade_id": "explicit.stat_2978494217"
+  },
+  {
+    "id": 161,
+    "name": "Martial Prowess",
+    "trade_id": "explicit.stat_1152182658"
+  },
+  {
+    "id": 162,
+    "name": "Master of Command",
+    "trade_id": "explicit.stat_3257074218"
+  },
+  {
+    "id": 163,
+    "name": "Master of Fear",
+    "trade_id": "explicit.stat_2771217016"
+  },
+  {
+    "id": 164,
+    "name": "Master of Fire",
+    "trade_id": "explicit.stat_1462135249"
+  },
+  {
+    "id": 165,
+    "name": "Master of the Maelstrom",
+    "trade_id": "explicit.stat_185592058"
+  },
+  {
+    "id": 166,
+    "name": "Master the Fundamentals",
+    "trade_id": "explicit.stat_3585232432"
+  },
+  {
+    "id": 167,
+    "name": "Mender's Wellspring",
+    "trade_id": "explicit.stat_4291434923"
+  },
+  {
+    "id": 168,
+    "name": "Militarism",
+    "trade_id": "explicit.stat_4154709486"
+  },
+  {
+    "id": 169,
+    "name": "Mindfulness",
+    "trade_id": "explicit.stat_2595115995"
+  },
+  {
+    "id": 170,
+    "name": "Misery Everlasting",
+    "trade_id": "explicit.stat_3832665876"
+  },
+  {
+    "id": 171,
+    "name": "Mob Mentality",
+    "trade_id": "explicit.stat_1048879642"
+  },
+  {
+    "id": 172,
+    "name": "Molten One's Mark",
+    "trade_id": "explicit.stat_3875792669"
+  },
+  {
+    "id": 173,
+    "name": "Mortifying Aspect",
+    "trade_id": "explicit.stat_3881737087"
+  },
+  {
+    "id": 174,
+    "name": "Mystical Ward",
+    "trade_id": "explicit.stat_2314111938"
+  },
+  {
+    "id": 175,
+    "name": "Natural Vigour",
+    "trade_id": "explicit.stat_510654792"
+  },
+  {
+    "id": 176,
+    "name": "No Witnesses",
+    "trade_id": "explicit.stat_1722480396"
+  },
+  {
+    "id": 177,
+    "name": "Non-Flammable",
+    "trade_id": "explicit.stat_731840035"
+  },
+  {
+    "id": 178,
+    "name": "Numbing Elixir",
+    "trade_id": "explicit.stat_1028754276"
+  },
+  {
+    "id": 179,
+    "name": "One with the Shield",
+    "trade_id": "explicit.stat_1976069869"
+  },
+  {
+    "id": 180,
+    "name": "Openness",
+    "trade_id": "explicit.stat_633943719"
+  },
+  {
+    "id": 181,
+    "name": "Opportunistic Fusilade",
+    "trade_id": "explicit.stat_4281625943"
+  },
+  {
+    "id": 182,
+    "name": "Overlord",
+    "trade_id": "explicit.stat_2250169390"
+  },
+  {
+    "id": 183,
+    "name": "Overshock",
+    "trade_id": "explicit.stat_3777170562"
+  },
+  {
+    "id": 184,
+    "name": "Overwhelming Malice",
+    "trade_id": "explicit.stat_770408103"
+  },
+  {
+    "id": 185,
+    "name": "Paralysis",
+    "trade_id": "explicit.stat_4272503233"
+  },
+  {
+    "id": 186,
+    "name": "Peace Amidst Chaos",
+    "trade_id": "explicit.stat_1734275536"
+  },
+  {
+    "id": 187,
+    "name": "Peak Vigour",
+    "trade_id": "explicit.stat_1722821275"
+  },
+  {
+    "id": 188,
+    "name": "Phlebotomist",
+    "trade_id": "explicit.stat_3057154383"
+  },
+  {
+    "id": 189,
+    "name": "Powerful Assault",
+    "trade_id": "explicit.stat_1005475168"
+  },
+  {
+    "id": 190,
+    "name": "Powerful Ward",
+    "trade_id": "explicit.stat_164032122"
+  },
+  {
+    "id": 191,
+    "name": "Practiced Caster",
+    "trade_id": "explicit.stat_3435403756"
+  },
+  {
+    "id": 192,
+    "name": "Precise Focus",
+    "trade_id": "explicit.stat_2913581789"
+  },
+  {
+    "id": 193,
+    "name": "Precise Retaliation",
+    "trade_id": "explicit.stat_2335364359"
+  },
+  {
+    "id": 194,
+    "name": "Pressure Points",
+    "trade_id": "explicit.stat_3391925584"
+  },
+  {
+    "id": 195,
+    "name": "Primordial Bond",
+    "trade_id": "explicit.stat_622362787"
+  },
+  {
+    "id": 196,
+    "name": "Prismatic Carapace",
+    "trade_id": "explicit.stat_3492924480"
+  },
+  {
+    "id": 197,
+    "name": "Prismatic Dance",
+    "trade_id": "explicit.stat_1149662934"
+  },
+  {
+    "id": 198,
+    "name": "Prismatic Heart",
+    "trade_id": "explicit.stat_2342448236"
+  },
+  {
+    "id": 199,
+    "name": "Prodigious Defence",
+    "trade_id": "explicit.stat_1705633890"
+  },
+  {
+    "id": 200,
+    "name": "Provocateur",
+    "trade_id": "explicit.stat_814369372"
+  },
+  {
+    "id": 201,
+    "name": "Pure Agony",
+    "trade_id": "explicit.stat_1507409483"
+  },
+  {
+    "id": 202,
+    "name": "Pure Aptitude",
+    "trade_id": "explicit.stat_3509724289"
+  },
+  {
+    "id": 203,
+    "name": "Pure Guile",
+    "trade_id": "explicit.stat_1621496909"
+  },
+  {
+    "id": 204,
+    "name": "Pure Might",
+    "trade_id": "explicit.stat_2372915005"
+  },
+  {
+    "id": 205,
+    "name": "Purposeful Harbinger",
+    "trade_id": "explicit.stat_507505131"
+  },
+  {
+    "id": 206,
+    "name": "Quick Getaway",
+    "trade_id": "explicit.stat_1626818279"
+  },
+  {
+    "id": 207,
+    "name": "Quick and Deadly",
+    "trade_id": "explicit.stat_2169345147"
+  },
+  {
+    "id": 208,
+    "name": "Rattling Bellow",
+    "trade_id": "explicit.stat_4288473380"
+  },
+  {
+    "id": 209,
+    "name": "Raze and Pillage",
+    "trade_id": "explicit.stat_1038897629"
+  },
+  {
+    "id": 210,
+    "name": "Readiness",
+    "trade_id": "explicit.stat_845306697"
+  },
+  {
+    "id": 211,
+    "name": "Remarkable",
+    "trade_id": "explicit.stat_691431951"
+  },
+  {
+    "id": 212,
+    "name": "Rend",
+    "trade_id": "explicit.stat_4263287206"
+  },
+  {
+    "id": 213,
+    "name": "Renewal",
+    "trade_id": "explicit.stat_3607300552"
+  },
+  {
+    "id": 214,
+    "name": "Repeater",
+    "trade_id": "explicit.stat_2233272527"
+  },
+  {
+    "id": 215,
+    "name": "Replenishing Presence",
+    "trade_id": "explicit.stat_1496043857"
+  },
+  {
+    "id": 216,
+    "name": "Righteous Path",
+    "trade_id": "explicit.stat_2620267328"
+  },
+  {
+    "id": 217,
+    "name": "Riot Queller",
+    "trade_id": "explicit.stat_254194892"
+  },
+  {
+    "id": 218,
+    "name": "Rot-Resistant",
+    "trade_id": "explicit.stat_713945233"
+  },
+  {
+    "id": 219,
+    "name": "Rote Reinforcement",
+    "trade_id": "explicit.stat_2478282326"
+  },
+  {
+    "id": 220,
+    "name": "Rotten Claws",
+    "trade_id": "explicit.stat_2289610642"
+  },
+  {
+    "id": 221,
+    "name": "Run Through",
+    "trade_id": "explicit.stat_1488030420"
+  },
+  {
+    "id": 222,
+    "name": "Sadist",
+    "trade_id": "explicit.stat_3638731729"
+  },
+  {
+    "id": 223,
+    "name": "Sage",
+    "trade_id": "explicit.stat_478147593"
+  },
+  {
+    "id": 224,
+    "name": "Sap Psyche",
+    "trade_id": "explicit.stat_715786975"
+  },
+  {
+    "id": 225,
+    "name": "Savage Response",
+    "trade_id": "explicit.stat_4222635921"
+  },
+  {
+    "id": 226,
+    "name": "Savour the Moment",
+    "trade_id": "explicit.stat_3539175001"
+  },
+  {
+    "id": 227,
+    "name": "Scintillating Idea",
+    "trade_id": "explicit.stat_2589589781"
+  },
+  {
+    "id": 228,
+    "name": "Seal Mender",
+    "trade_id": "explicit.stat_876846990"
+  },
+  {
+    "id": 229,
+    "name": "Second Skin",
+    "trade_id": "explicit.stat_2773515950"
+  },
+  {
+    "id": 230,
+    "name": "Seeker Runes",
+    "trade_id": "explicit.stat_2261237498"
+  },
+  {
+    "id": 231,
+    "name": "Self-Control",
+    "trade_id": "explicit.stat_3025453294"
+  },
+  {
+    "id": 232,
+    "name": "Self-Fulfilling Prophecy",
+    "trade_id": "explicit.stat_2644533453"
+  },
+  {
+    "id": 233,
+    "name": "Septic Spells",
+    "trade_id": "explicit.stat_4290522695"
+  },
+  {
+    "id": 234,
+    "name": "Set and Forget",
+    "trade_id": "explicit.stat_1101250813"
+  },
+  {
+    "id": 235,
+    "name": "Shifting Shadow",
+    "trade_id": "explicit.stat_1476913894"
+  },
+  {
+    "id": 236,
+    "name": "Shrieking Bolts",
+    "trade_id": "explicit.stat_2783012144"
+  },
+  {
+    "id": 237,
+    "name": "Skeletal Atrophy",
+    "trade_id": "explicit.stat_1290215329"
+  },
+  {
+    "id": 238,
+    "name": "Skullbreaker",
+    "trade_id": "explicit.stat_315697256"
+  },
+  {
+    "id": 239,
+    "name": "Sleepless Sentries",
+    "trade_id": "explicit.stat_3993957711"
+  },
+  {
+    "id": 240,
+    "name": "Smite the Weak",
+    "trade_id": "explicit.stat_540300548"
+  },
+  {
+    "id": 241,
+    "name": "Smoking Remains",
+    "trade_id": "explicit.stat_2322980282"
+  },
+  {
+    "id": 242,
+    "name": "Snaring Spirits",
+    "trade_id": "explicit.stat_3319205340"
+  },
+  {
+    "id": 243,
+    "name": "Snowstorm",
+    "trade_id": "explicit.stat_1595367309"
+  },
+  {
+    "id": 244,
+    "name": "Special Reserve",
+    "trade_id": "explicit.stat_4235300427"
+  },
+  {
+    "id": 245,
+    "name": "Spiked Concoction",
+    "trade_id": "explicit.stat_3372255769"
+  },
+  {
+    "id": 246,
+    "name": "Spiteful Presence",
+    "trade_id": "explicit.stat_1134501245"
+  },
+  {
+    "id": 247,
+    "name": "Spring Back",
+    "trade_id": "explicit.stat_3603695769"
+  },
+  {
+    "id": 248,
+    "name": "Steady Torment",
+    "trade_id": "explicit.stat_3500334379"
+  },
+  {
+    "id": 249,
+    "name": "Stoic Focus",
+    "trade_id": "explicit.stat_1088949570"
+  },
+  {
+    "id": 250,
+    "name": "Storm Drinker",
+    "trade_id": "explicit.stat_2087561637"
+  },
+  {
+    "id": 251,
+    "name": "Storm's Hand",
+    "trade_id": "explicit.stat_1122051203"
+  },
+  {
+    "id": 252,
+    "name": "Stormrider",
+    "trade_id": "explicit.stat_889728548"
+  },
+  {
+    "id": 253,
+    "name": "Streamlined",
+    "trade_id": "explicit.stat_1397498432"
+  },
+  {
+    "id": 254,
+    "name": "Strike Leader",
+    "trade_id": "explicit.stat_282062371"
+  },
+  {
+    "id": 255,
+    "name": "Stubborn Student",
+    "trade_id": "explicit.stat_2383914651"
+  },
+  {
+    "id": 256,
+    "name": "Student of Decay",
+    "trade_id": "explicit.stat_3202667190"
+  },
+  {
+    "id": 257,
+    "name": "Sublime Form",
+    "trade_id": "explicit.stat_2251304016"
+  },
+  {
+    "id": 258,
+    "name": "Sublime Sensation",
+    "trade_id": "explicit.stat_1364858171"
+  },
+  {
+    "id": 259,
+    "name": "Supercharge",
+    "trade_id": "explicit.stat_3226074658"
+  },
+  {
+    "id": 260,
+    "name": "Surefooted Striker",
+    "trade_id": "explicit.stat_3410752193"
+  },
+  {
+    "id": 261,
+    "name": "Surging Vitality",
+    "trade_id": "explicit.stat_2410501331"
+  },
+  {
+    "id": 262,
+    "name": "Surprise Sabotage",
+    "trade_id": "explicit.stat_3051562738"
+  },
+  {
+    "id": 263,
+    "name": "Tempered Arrowheads",
+    "trade_id": "explicit.stat_2631806437"
+  },
+  {
+    "id": 264,
+    "name": "Tempt the Storm",
+    "trade_id": "explicit.stat_348883745"
+  },
+  {
+    "id": 265,
+    "name": "Thaumophage",
+    "trade_id": "explicit.stat_177215332"
+  },
+  {
+    "id": 266,
+    "name": "Thunderstruck",
+    "trade_id": "explicit.stat_1741700339"
+  },
+  {
+    "id": 267,
+    "name": "Titanic Swings",
+    "trade_id": "explicit.stat_2930275641"
+  },
+  {
+    "id": 268,
+    "name": "Touch of Cruelty",
+    "trade_id": "explicit.stat_2780712583"
+  },
+  {
+    "id": 269,
+    "name": "Towering Threat",
+    "trade_id": "explicit.stat_3536778624"
+  },
+  {
+    "id": 270,
+    "name": "Uncompromising",
+    "trade_id": "explicit.stat_382360671"
+  },
+  {
+    "id": 271,
+    "name": "Unholy Grace",
+    "trade_id": "explicit.stat_4186213466"
+  },
+  {
+    "id": 272,
+    "name": "Unrestrained Focus",
+    "trade_id": "explicit.stat_1570474940"
+  },
+  {
+    "id": 273,
+    "name": "Unspeakable Gifts",
+    "trade_id": "explicit.stat_729163974"
+  },
+  {
+    "id": 274,
+    "name": "Untouchable",
+    "trade_id": "explicit.stat_2758966888"
+  },
+  {
+    "id": 275,
+    "name": "Unwavering Focus",
+    "trade_id": "explicit.stat_367638058"
+  },
+  {
+    "id": 276,
+    "name": "Unwaveringly Evil",
+    "trade_id": "explicit.stat_2788982914"
+  },
+  {
+    "id": 277,
+    "name": "Vast Power",
+    "trade_id": "explicit.stat_1996576560"
+  },
+  {
+    "id": 278,
+    "name": "Veteran Defender",
+    "trade_id": "explicit.stat_664010431"
+  },
+  {
+    "id": 279,
+    "name": "Vicious Bite",
+    "trade_id": "explicit.stat_882876854"
+  },
+  {
+    "id": 280,
+    "name": "Vicious Guard",
+    "trade_id": "explicit.stat_4054656914"
+  },
+  {
+    "id": 281,
+    "name": "Vicious Skewering",
+    "trade_id": "explicit.stat_567971948"
+  },
+  {
+    "id": 282,
+    "name": "Victim Maker",
+    "trade_id": "explicit.stat_1936135020"
+  },
+  {
+    "id": 283,
+    "name": "Vile Reinvigoration",
+    "trade_id": "explicit.stat_647201233"
+  },
+  {
+    "id": 284,
+    "name": "Vital Focus",
+    "trade_id": "explicit.stat_2134141047"
+  },
+  {
+    "id": 285,
+    "name": "Vivid Hues",
+    "trade_id": "explicit.stat_3957006524"
+  },
+  {
+    "id": 286,
+    "name": "Volatile Presence",
+    "trade_id": "explicit.stat_2350668735"
+  },
+  {
+    "id": 287,
+    "name": "Wall of Muscle",
+    "trade_id": "explicit.stat_1363668533"
+  },
+  {
+    "id": 288,
+    "name": "Warning Call",
+    "trade_id": "explicit.stat_578355556"
+  },
+  {
+    "id": 289,
+    "name": "Wasting Affliction",
+    "trade_id": "explicit.stat_2066820199"
+  },
+  {
+    "id": 290,
+    "name": "Weight Advantage",
+    "trade_id": "explicit.stat_2244243943"
+  },
+  {
+    "id": 291,
+    "name": "Wicked Pall",
+    "trade_id": "explicit.stat_1616734644"
+  },
+  {
+    "id": 292,
+    "name": "Widespread Destruction",
+    "trade_id": "explicit.stat_1678643716"
+  },
+  {
+    "id": 293,
+    "name": "Will Shaper",
+    "trade_id": "explicit.stat_1162352537"
+  },
+  {
+    "id": 294,
+    "name": "Wind-up",
+    "trade_id": "explicit.stat_1938661964"
+  },
+  {
+    "id": 295,
+    "name": "Winter Prowler",
+    "trade_id": "explicit.stat_755881431"
+  },
+  {
+    "id": 296,
+    "name": "Wish for Death",
+    "trade_id": "explicit.stat_608164368"
+  },
+  {
+    "id": 297,
+    "name": "Wizardry",
+    "trade_id": "explicit.stat_3078065247"
+  },
+  {
+    "id": 298,
+    "name": "Wound Aggravation",
+    "trade_id": "explicit.stat_69078820"
+  },
+  {
+    "id": 299,
+    "name": "Wrapped in Flame",
+    "trade_id": "explicit.stat_241783558"
+  }
 ]
