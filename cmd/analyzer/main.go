@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"runtime"
 	
 	"megalo-analyzer/internal/combinatorics"
 	"megalo-analyzer/internal/storage"
@@ -17,27 +18,28 @@ func main() {
 	}
 	fmt.Printf("Successfully loaded %d nodes into memory storage.\n", len(db.Notables))
 
-	fmt.Println("\n--- First 3 Valid Database Entries ---")
-	for i := 0; i < 3; i++ {
-		fmt.Printf("ID: %d | Name: %s | TradeID: %s\n", db.Notables[i].ID, db.Notables[i].Name, db.Notables[i].TradeID)
-	}
-	fmt.Println("-------------------------------------\n")
+	fmt.Println("Allocating 4,455,100 slot market pricing matrix...")
+	matrix := storage.NewMarketMatrix()
+	
+	var m runtime.MemStats
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Matrix Allocated! System Memory currently in use: %v MiB\n", m.Alloc / 1024 / 1024)
 
 	testKey1 := db.Notables[10].TradeID
 	testKey2 := db.Notables[20].TradeID
 	testKey3 := db.Notables[50].TradeID
 
-	idx1, ok1 := db.TradeIDToID[testKey1]
-	idx2, ok2 := db.TradeIDToID[testKey2]
-	idx3, ok3 := db.TradeIDToID[testKey3]
-
-	if !ok1 || !ok2 || !ok3 {
-		log.Fatalf("Error: Failed to find valid map keys in database registration.")
-	}
+	idx1 := db.TradeIDToID[testKey1]
+	idx2 := db.TradeIDToID[testKey2]
+	idx3 := db.TradeIDToID[testKey3]
 
 	matrixLocation := combinatorics.GetCombinationIndex(idx1, idx2, idx3)
-	
-	fmt.Printf("Real Dynamic Test Keys: [%s, %s, %s]\n", testKey1, testKey2, testKey3)
-	fmt.Printf("Translated Match IDs:   [%d, %d, %d]\n", idx1, idx2, idx3)
-	fmt.Printf("Mapped 1D Plotting Array Location: %d / 4455099\n", matrixLocation)
+
+	fmt.Printf("\nSimulating market discovery for index %d...\n", matrixLocation)
+	_ = matrix.InsertPrice(matrixLocation, 150.0) 
+	_ = matrix.InsertPrice(matrixLocation, 135.5) 
+
+	// 4. Retrieve and verify the matrix state
+	recordedPrices, _ := matrix.GetPrices(matrixLocation)
+	fmt.Printf("Retrieved Matrix Prices at Index %d: %v Chaos Orbs\n", matrixLocation, recordedPrices)
 }
